@@ -1,0 +1,84 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.all
+{
+    background-image: linear-gradient(to right, rgb(24, 93, 158) , rgb(205, 219, 17));
+    height: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.appeared
+{
+    display: flex;
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.show
+{
+    text-decoration: line-through;
+}
+
+.h1
+{
+    color: white;
+    font-size: 50px;
+    letter-spacing:0.5rem;
+    font-family: cursive;
+    margin-top: 0;
+    padding-top: 40px;
+}
+.btn
+{
+    border: 1px solid rgb(205, 219, 17);
+    color: white;
+    background-image: linear-gradient(to right, rgb(12, 52, 90) , rgb(16, 158, 235));
+    padding: 10px 20px;
+}
+.btn:hover
+{
+    background-image: linear-gradient(to right , rgb(16, 158, 235),rgb(12, 52, 90));
+    cursor: pointer;
+}
+.fa-times-hexagon
+{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.appeded
+{
+    background-color: white;
+    width: 70%;
+    color: black;
+    text-align: left;
+   
+}  
+.appeded p
+{
+    padding: 10px 20px;
+    background-color: #ffff;
+    border: 1px solid #666;
+}
+.checked{
+    text-decoration: line-through;
+    color: rgb(227, 7, 7);
+}
+.section
+{
+    padding: 20px ;
+    border: 1px solid #666;
+}
+.delete
+{
+    float: right;
+}
+.check_mark
+{
+    margin-right: 10px;
+}
